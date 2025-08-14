@@ -1,0 +1,589 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: whitesmoke;
+  font-size: 16px;
+  /* background-color: rgba(123, 144, 184, 95%);
+  background-color: rgb(123, 144, 184);
+  border-top: 2px solid #1E4797;
+  background-color: rgba(30, 71, 151, 30%);
+  122, 75, 47
+  background-color: rgba(30, 71, 151, 50%); */
+  /* background-color: rgb(61, 56, 49); */
+}
+
+@media (max-width: 588px) {
+  #navbar_position {
+    margin-inline: 5px;
+  }
+
+  #navbar_links {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  #about_us_content {
+    max-width: 100%;
+    margin-inline: 10px;
+    padding: 0 2dvw;
+  }
+
+  #zsakos_sittszallitas_container {
+    max-width: 100%;
+    margin-inline: 10px;
+    padding: 0 2dvw;
+  }
+
+  table {
+    width: fit-content;
+    min-width: 300px;
+  }
+
+  #zsakos_sittszallitas_content {
+    align-items: center;
+  }
+
+  #golden_turtle img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 589px) {
+  #navbar_position {
+    margin-inline: 10px;
+    max-width: 100%;
+  }
+
+  #about_us_content {
+    max-width: 75%;
+    margin-inline: 3dvw;
+    padding: 0 4dvw;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  #zsakos_sittszallitas_container {
+    max-width: 85%;
+    margin-inline: auto;
+    padding: 0 4dvw;
+  }
+
+  table {
+    width: fit-content;
+    min-width: 300px;
+  }
+
+  #zsakos_sittszallitas_content {
+    align-items: center;
+  }
+
+  #golden_turtle img {
+    width: 35px;
+  }
+
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  #navbar_position {
+    margin-inline: 10px;
+    max-width: 100%;
+  }
+
+  #navbar_links {
+    gap: 0.5dvw;
+  }
+
+  #about_us_content {
+    max-width: 85%;
+    margin-inline: 5dvw;
+    padding: 0 4dvw;
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  #zsakos_sittszallitas_container {
+    max-width: 85%;
+    margin-inline: auto;
+    padding: 0 4dvw;
+  }
+
+  table {
+    width: fit-content;
+    min-width: 300px;
+  }
+
+  #golden_turtle img {
+    width: 35px;
+  }
+
+  .right {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1025px) {
+  #navbar_position {
+    max-width: 75%;
+    margin-inline: auto;
+    padding: 0 2dvw;
+  }
+
+  #about_us_content {
+    max-width: 75%;
+    margin-inline: 13dvw;
+    padding: 0 4dvw;
+  }
+
+  span {
+    font-size: 16px;
+  }
+
+  table {
+    width: fit-content;
+    min-width: 300px;
+  }
+
+  #zsakos_sittszallitas_container {
+    max-width: 85%;
+    margin-inline: auto;
+    padding: 0 4dvw;
+  }
+
+  #golden_turtle img {
+    width: 35px;
+  }
+
+  .right {
+    text-align: right;
+  }
+}
+
+p {
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+.border_top {
+  border-top: 2px solid rgba(49, 95, 187, 40%);
+}
+
+.card_container {
+  gap: 1dvw;
+}
+
+.font_15 {
+  font-size: 15px;
+}
+
+.green {
+  color: #30aa2c;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.justify_center {
+  justify-content: center;
+}
+
+.brown {
+  color: #7a4b2f;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.lighter_color {
+  color: rgb(59, 59, 59);
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.white {
+  color: white;
+}
+
+.header_3 {
+  font-size: 1.5rem;
+}
+
+span {
+  color: #d32f2f;
+}
+
+/* Navbar styles */
+
+#navbar {
+  background-color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#navbar_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2dvw;
+  padding: 15px 0;
+}
+
+#navbar_links {
+  text-align: center;
+  gap: 1dvw;
+  font-size: 14px;
+}
+
+#name {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact {
+  display: flex;
+  gap: 8px;
+}
+
+/* Navbar styles end */
+
+/* Button styles */
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+button:hover {
+  transition: 0.3s;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button_white {
+  background-color: white;
+  color: black;
+}
+
+.button_black {
+  background-color: black;
+  color: white;
+}
+
+/* Button styles end */
+
+/* About Us styles */
+
+#about_us_container {
+  padding: 10dvh 0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(49, 95, 187, 0.13);
+}
+
+#about_us_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2dvw;
+}
+
+#about_us_title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+#about_us_desc {
+  line-height: 23px;
+}
+
+#about_us_buttons {
+  gap: 1dvw;
+  margin: 20px 0;
+}
+
+#about_us_adv_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 0.5dvw;
+  font-size: 14px;
+}
+
+#about_us_card_grid {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 1dvw;
+}
+
+/* About Us styles end */
+
+/* Services styles */
+
+#szolgaltatasok {
+  padding: 30px 0;
+}
+
+#szolgaltatasok_container {
+  max-width: 75%;
+  margin-inline: auto;
+  padding: 0 4dvw;
+}
+
+#szolgaltatasok_content {
+  text-align: center;
+}
+
+#szolgaltatasok_content p {
+  max-width: 70%;
+}
+
+#szolgaltatasok_flex {
+  flex-wrap: wrap;
+  gap: 1dvw;
+}
+
+/* Services styles end */
+
+/* Zsákos Sittszállítás styles */
+
+#zsakos_sittszallitas {
+  padding: 4dvh 0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(49, 95, 187, 0.13);
+}
+
+#zsakos_sittszallitas_header {
+  text-align: center;
+}
+
+#zsakos_sittszallitas_content_grid {
+  display: grid;
+  gap: 1dvw;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 20px 0px 20px 0px;
+}
+
+#zsakos_sittszallitas_content_adv {
+  padding: 0 10px;
+}
+
+#zsakos_sittszallitas_content_adv p {
+  margin: 5px;
+}
+
+#zsakos_sittszallitas_content_adv ul {
+  margin: 5px;
+  line-height: 1.3;
+}
+
+/* Zsákos Sittszállítás styles end */
+
+/* Lomtalanitas styles */
+
+#lomtalanitas {
+  padding: 4dvh 0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#lomtalanitas_container {
+  max-width: 75%;
+  margin-inline: auto;
+  padding: 0 4dvw;
+}
+
+#lomtalanitas_header {
+  text-align: center;
+}
+
+#lomtalanitas_content_grid {
+  display: grid;
+  gap: 1dvw;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 20px 0px 20px 0px;
+}
+
+#lomtalanitas_content p {
+  margin: 5px;
+}
+
+/* Lomtalanitas styles end */
+
+/* Big Card styles */
+
+#big_card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  transition: 0.3s;
+}
+
+#big_card:hover {
+  transition: 0.3s;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#big_card_container {
+  display: flex;
+  flex-direction: column;
+}
+
+#big_card_header {
+  display: flex;
+  flex-direction: column;
+}
+
+#big_card_header p {
+  margin: 0;
+}
+
+#big_card_icon {
+  display: flex;
+  padding: 15px;
+  border-radius: 7px;
+  font-size: 20px;
+  width: fit-content;
+}
+
+#big_card ul {
+  line-height: 1.3;
+}
+
+#big_card_button button {
+  float: right;
+}
+
+/* Big Card styles end */
+
+/* Small Card styles */
+
+#small_card {
+  background-color: white;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  transition: 0.3s;
+}
+
+#small_card:hover {
+  transition: 0.3s;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#small_card_container {
+  padding: 18px;
+}
+
+#small_card_icon {
+  display: flex;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+#small_card_content h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+#small_card_content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Small Card styles end */
+
+/* Table styles */
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgba(49, 95, 187, 30%);
+  padding: 8px;
+  text-align: center;
+}
+
+td,
+th {
+  padding: 4px;
+  text-align: center;
+}
+
+.tr_even {
+  background-color: rgba(49, 95, 187, 10%);
+}
+
+.tr_odd {
+  background-color: rgba(49, 95, 187, 5%);
+}
+
+/* Table styles end */
+
+/* Scroll to Top button styles */
+
+#to_the_top_button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#to_the_top_button_icon {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 80%);
+  border-radius: 40px;
+  color: #1E4797;
+}
+
+/* Scroll to Top button styles end */
+
+/* Golden Turtle styles */
+
+#golden_turtle {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+#golden_turtle img {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Golden Turtle styles end */
