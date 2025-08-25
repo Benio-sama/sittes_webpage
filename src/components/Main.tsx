@@ -14,10 +14,21 @@ interface MainProps {
 export function Main(props: MainProps) {
     return (
         <main id="main_content">
-            <AboutUs />
-            <Szolgaltatasok />
-            <ZsakosSitt />
-            <Lomtalanitas />
+            {
+                props.subpage == 'about_us' ? <>
+                    <AboutUs />
+                    <Szolgaltatasok />
+                </> : null
+            }
+            {
+                props.subpage == 'zsakos_sitt' ? <ZsakosSitt /> : null
+            }
+            {
+                props.subpage == 'lomtalanitas' ? <Lomtalanitas /> : null
+            }
+            {
+                props.subpage == 'ugyfelek_velemenyei' ? <Reviews /> : null
+            }
             <ToTheTopButton />
             <GoldenTurtle />
         </main>

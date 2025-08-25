@@ -2,7 +2,7 @@ export function Lomtalanitas() {
     return (
         <section id="lomtalanitas" className="align_center">
             <div id="lomtalanitas_container" className="flex_col">
-                <div id="lomtalanitas_header" className="flex_col align_center">
+                <div id="lomtalanitas_header" className="flex_col align_center text_center">
                     <h2 className="lighter">Lomtalanítás</h2>
                     <p className="lighter_color">Lomtalanítást, feleslegessé vált lomok (ócska vagy öreg bútorok, műszaki, elektronikai berendezések, ruhák, könyvek stb.) elszállítását vállaljuk magánszemélyeknek és közületeknek – Budapest minden kerületében és környékén a hét bármely napján, a nap bármelyik órájában.</p>
                 </div>

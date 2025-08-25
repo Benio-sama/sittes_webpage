@@ -16,14 +16,9 @@ const router = createBrowserRouter([
     element: <App subpage='zsakos_sitt' />,
   },
   {
-    //sittes zsak page
-    path: '/sittes_zsak',
-    element: <App subpage='sittes_zsak' />,
-  },
-  {
-    //szolgaltatasok page
-    path: '/szolgaltatasok',
-    element: <App subpage='szolgaltatasok' />,
+    //lomtalanitas page
+    path: '/lomtalanitas',
+    element: <App subpage='lomtalanitas' />,
   },
   {
     //ugyfelek velemenyei page

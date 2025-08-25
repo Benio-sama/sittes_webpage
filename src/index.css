@@ -16,7 +16,7 @@ body {
   /* background-color: rgb(61, 56, 49); */
 }
 
-@media (max-width: 588px) {
+@media (max-width: 450px) {
   #navbar_position {
     margin-inline: 5px;
   }
@@ -44,6 +44,53 @@ body {
   table {
     width: fit-content;
     min-width: 300px;
+  }
+
+  #big_card {
+    width: 80dvw;
+  }
+
+  #zsakos_sittszallitas_content {
+    align-items: center;
+  }
+
+  #golden_turtle img {
+    width: 30px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 588px) {
+  #navbar_position {
+    margin-inline: 5px;
+  }
+
+  #navbar_links {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  #about_us_content {
+    max-width: 100%;
+    margin-inline: 10px;
+    padding: 0 2dvw;
+  }
+
+  #zsakos_sittszallitas_container {
+    max-width: 100%;
+    margin-inline: 10px;
+    padding: 0 2dvw;
+  }
+
+  table {
+    width: fit-content;
+    min-width: 300px;
+  }
+
+  #big_card {
+    width: 300px;
   }
 
   #zsakos_sittszallitas_content {
@@ -80,6 +127,10 @@ body {
   table {
     width: fit-content;
     min-width: 300px;
+  }
+
+  #big_card {
+    width: 300px;
   }
 
   #zsakos_sittszallitas_content {
@@ -123,6 +174,10 @@ body {
     min-width: 300px;
   }
 
+  #big_card {
+    width: 300px;
+  }
+
   #golden_turtle img {
     width: 35px;
   }
@@ -152,6 +207,9 @@ body {
   table {
     width: fit-content;
     min-width: 300px;
+  }
+  #big_card {
+    width: 300px;
   }
 
   #zsakos_sittszallitas_container {
@@ -236,6 +294,10 @@ ul {
   font-size: 1.5rem;
 }
 
+.text_center {
+  text-align: center;
+}
+
 span {
   color: #d32f2f;
 }
@@ -255,7 +317,6 @@ span {
 }
 
 #navbar_links {
-  text-align: center;
   gap: 1dvw;
   font-size: 14px;
 }
@@ -301,8 +362,9 @@ button:hover {
 
 .button_black {
   background-color: black;
-  color: white;
+  color: white !important;
 }
+
 
 /* Button styles end */
 
@@ -311,7 +373,8 @@ button:hover {
 #about_us_container {
   padding: 10dvh 0;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-  background-color: rgba(49, 95, 187, 0.13);
+  background-color: rgba(124, 168, 222, 50%);
+  /* background-color: #608BC0; */
 }
 
 #about_us_grid {
@@ -363,10 +426,6 @@ button:hover {
   padding: 0 4dvw;
 }
 
-#szolgaltatasok_content {
-  text-align: center;
-}
-
 #szolgaltatasok_content p {
   max-width: 70%;
 }
@@ -384,10 +443,6 @@ button:hover {
   padding: 4dvh 0;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   background-color: rgba(49, 95, 187, 0.13);
-}
-
-#zsakos_sittszallitas_header {
-  text-align: center;
 }
 
 #zsakos_sittszallitas_content_grid {
@@ -416,17 +471,12 @@ button:hover {
 
 #lomtalanitas {
   padding: 4dvh 0;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 #lomtalanitas_container {
   max-width: 75%;
   margin-inline: auto;
   padding: 0 4dvw;
-}
-
-#lomtalanitas_header {
-  text-align: center;
 }
 
 #lomtalanitas_content_grid {
@@ -442,13 +492,28 @@ button:hover {
 
 /* Lomtalanitas styles end */
 
+/* Reviews styles */
+
+#reviews {
+  padding: 4dvh 0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(49, 95, 187, 0.13);
+}
+
+#reviews_container {
+  max-width: 75%;
+  margin-inline: auto;
+  padding: 0 4dvw;
+}
+
+/* Reviews styles end */
+
 /* Big Card styles */
 
 #big_card {
   background-color: white;
   padding: 20px;
   border-radius: 15px;
-  width: 300px;
   transition: 0.3s;
 }
 
@@ -567,7 +632,7 @@ th {
   padding: 10px;
   background-color: rgba(255, 255, 255, 80%);
   border-radius: 40px;
-  color: #1E4797;
+  color: #133E87;
 }
 
 /* Scroll to Top button styles end */

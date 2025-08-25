@@ -10,7 +10,7 @@ export function AboutUs() {
                         <p id="about_us_desc" className="lighter_color">Kis mennyiségű sitt, törmelék, lom, szemét és kerti hulladék szállítása Budapesten és Pest vármegyében rakodással – gyorsan, olcsón, megbízhatóan! Ideális, nincs szükség konténerre — kisteherautóval, szakszerű rakodással, az Ön kényelme érdekében.</p>
                         <div id="about_us_buttons" className="flex_row">
                             <button><i className="fa fa-briefcase brown"></i><a href="#szolgaltatasok"> Szolgáltatások</a></button>
-                            <button className="button_black"><i className="fa fa-phone"></i> 06 70 507 0462</button>
+                            <button className="button_black"><i className="fa fa-phone"></i><a href="tel:+36705070462" className="white"> 06 70 507 0462</a></button>
                         </div>
                         <div id="about_us_adv_grid">
                             <div><i className="fa fa-check-square-o green"></i> Budapesten és Pest vármegyében</div>
