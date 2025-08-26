@@ -13,7 +13,7 @@ interface BigCardProps {
 
 export function BigCard(props: BigCardProps) {
     return (
-        <div id="big_card" style={{ borderColor: `rgba(${props.colorRed || 0}, ${props.colorGreen || 0}, ${props.colorBlue || 0}, 30%)`, borderWidth: "1px", borderStyle: "solid", backgroundColor: `rgba(${props.colorRed || 240}, ${props.colorGreen || 240}, ${props.colorBlue || 240}, 5%)` }}>
+        <div className="big_card" style={{ borderColor: `rgba(${props.colorRed || 0}, ${props.colorGreen || 0}, ${props.colorBlue || 0}, 30%)`, borderWidth: "1px", borderStyle: "solid", backgroundColor: `rgba(${props.colorRed || 240}, ${props.colorGreen || 240}, ${props.colorBlue || 240}, 5%)` }}>
             <div id="big_card_container">
                 <div id="big_card_header">
                     <div id="big_card_icon" className="center" style={{ backgroundColor: `rgba(${props.colorRed || 240}, ${props.colorGreen || 240}, ${props.colorBlue || 240}, 15%)`, color: `rgb(${props.colorRed || 0}, ${props.colorGreen || 0}, ${props.colorBlue || 0})` }}><i className={props.iconClass}></i></div>

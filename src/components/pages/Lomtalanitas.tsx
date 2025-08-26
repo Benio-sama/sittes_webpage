@@ -7,9 +7,9 @@ export function Lomtalanitas() {
                     <p className="lighter_color">Lomtalanítást, feleslegessé vált lomok (ócska vagy öreg bútorok, műszaki, elektronikai berendezések, ruhák, könyvek stb.) elszállítását vállaljuk magánszemélyeknek és közületeknek – Budapest minden kerületében és környékén a hét bármely napján, a nap bármelyik órájában.</p>
                 </div>
                 <div id="lomtalanitas_content" className="flex_col">
+                    <h3 className="lighter header_3">Lomtalanítás árak</h3>
                     <div id="lomtalanitas_content_grid">
                         <div className="flex_col justify_center">
-                            <h3 className="lighter header_3">Lomtalanítás árak</h3>
                             <p><b>Kiállás:</b> 14.000 Ft (Budapest és Pest vármegye területén)</p>
                             <p><b>Lerakói díj:</b> 6.000 Ft/m<sup>3</sup></p>
                             <p><b>Várakozási idő:</b> 4 m<sup>3</sup>-ig 30 perc, annál nagyobb mennyiség esetén max. 45 perc!</p>

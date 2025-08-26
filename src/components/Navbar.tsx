@@ -10,11 +10,11 @@ export function Navbar() {
                         <a href="/zsakos_sittszallitas">Zsákos sittszállítás</a>
                         <a href="/">Szolgáltatások</a>
                         <a href="/ugyfelek_velemenyei">Ügyfelek véleményei</a>
-                        <a href="#galeria">Galéria</a>
+                        <a href="/galeria">Galéria</a>
                     </nav>
                     <div id="contact" className="align_center justify_center">
-                        <div className="tablet"><i className="fa fa-phone"></i><a href="tel:+36705070462"> 06 70 507 0462</a></div>
-                        <button className="button_black mobile"><a href="#elerhetosegek" className="white">Elérhetőségek</a></button>
+                        <div className="tablet mobile"><a id="phone_number" href="tel:+36705070462"><i className="fa fa-phone"></i> +36 70 507 0462</a></div>
+                        <button className="button_black"><a id="contact_button" href="#contact_us" className="white">Elérhetőségek</a></button>
                     </div>
                 </div>
             </div>
