@@ -7,7 +7,12 @@ import React from 'react'
 const router = createBrowserRouter([
   {
     //about us page
-    path: '/',
+    path: '*',
+    element: <App subpage='about_us' />,
+  },
+  {
+    //about us page
+    path: '/home',
     element: <App subpage='about_us' />,
   },
   {
@@ -16,14 +21,9 @@ const router = createBrowserRouter([
     element: <App subpage='zsakos_sitt' />,
   },
   {
-    //sittes zsak page
-    path: '/sittes_zsak',
-    element: <App subpage='sittes_zsak' />,
-  },
-  {
-    //szolgaltatasok page
-    path: '/szolgaltatasok',
-    element: <App subpage='szolgaltatasok' />,
+    //lomtalanitas page
+    path: '/lomtalanitas',
+    element: <App subpage='lomtalanitas' />,
   },
   {
     //ugyfelek velemenyei page
@@ -31,9 +31,9 @@ const router = createBrowserRouter([
     element: <App subpage='ugyfelek_velemenyei' />,
   },
   {
-    //elerhetosegek page
-    path: '/elerhetosegek',
-    element: <App subpage='elerhetosegek' />,
+    //galeria page
+    path: '/galeria',
+    element: <App subpage='galeria' />,
   },
 ])
 

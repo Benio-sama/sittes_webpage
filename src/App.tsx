@@ -1,18 +1,20 @@
-import { useState } from 'react'
 import { Navbar } from './components/Navbar'
 import { Main } from './components/Main'
+import { ContactUs } from './components/pages/Contact_us';
+import ScrollToHashElement from './ScrollToHashElement';
 
 interface AppProps {
   subpage: string;
 }
 
 function App(props: AppProps) {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <ScrollToHashElement />
       <Navbar />
       <Main subpage={props.subpage} />
+      <ContactUs />
     </>
   )
 }

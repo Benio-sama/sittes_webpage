@@ -1,0 +1,64 @@
+{
+    "reviews": [
+        {
+            "id": 0,
+            "title": "Kiváló szolgáltatás",
+            "body": "Nagyon elégedett vagyok a szolgáltatással! Gyorsak és megbízhatóak.",
+            "footer": "Kovács János"
+        },
+        {
+            "id": 1,
+            "title": "Jó ár-érték arány",
+            "body": "Jó ár-érték arány, de a kiszállítás kicsit késlekedett.",
+            "footer": "Szabó Anna"
+        },
+        {
+            "id": 2,
+            "title": "Profi csapat",
+            "body": "Mindenkinek ajánlom őket! Profi csapat.",
+            "footer": "Nagy Péter"
+        },
+        {
+            "id": 3,
+            "title": "Kiváló szolgáltatás",
+            "body": "Nagyon elégedett vagyok a szolgáltatással! Gyorsak és megbízhatóak.",
+            "footer": "Kovács János"
+        },
+        {
+            "id": 4,
+            "title": "Jó ár-érték arány",
+            "body": "Jó ár-érték arány, de a kiszállítás kicsit késlekedett.",
+            "footer": "Szabó Anna"
+        },
+        {
+            "id": 5,
+            "title": "Profi csapat",
+            "body": "Mindenkinek ajánlom őket! Profi csapat.",
+            "footer": "Nagy Péter"
+        },
+        {
+            "id": 6,
+            "title": "Kiváló szolgáltatás",
+            "body": "Nagyon elégedett vagyok a szolgáltatással! Gyorsak és megbízhatóak.",
+            "footer": "Kovács János"
+        },
+        {
+            "id": 7,
+            "title": "Jó ár-érték arány",
+            "body": "Jó ár-érték arány, de a kiszállítás kicsit késlekedett.",
+            "footer": "Szabó Anna"
+        },
+        {
+            "id": 8,
+            "title": "Profi csapat",
+            "body": "Mindenkinek ajánlom őket! Profi csapat.",
+            "footer": "Nagy Péter"
+        },
+        {
+            "id": 9,
+            "title": "Great Service!",
+            "body": "I had a wonderful experience with this company.",
+            "footer": "John Doe"
+        }
+    ]
+}
