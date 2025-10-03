@@ -1,3 +1,4 @@
+import { GalleryCard } from "../elements/GalleryCard";
 import { Table } from "../elements/Table";
 
 export function ZsakosSitt() {
@@ -17,7 +18,7 @@ export function ZsakosSitt() {
                         <div id="zsakos_sittszallitas_content_adv" className="flex_col right justify_center">
                             <h3 className="lighter header_3">Miért érdemes a zsákos szállítást választani?</h3>
                             <div>
-                                <p><b>Nincs területfoglalási engedély:</b> Nem kell engedélyeket intézni, így időt és utánajárást spórolmeg.</p>
+                                <p><b>Nincs területfoglalási engedély:</b> Nem kell engedélyeket intézni, így időt és utánajárást spórol meg.</p>
                                 <p><b>Nincs extra költség :</b> A parkolási díjat mi fizetjük.</p>
                                 <p><b>Nincs cipekedés:</b> Pakolással is rendelhető a szolgáltatásunk.</p>
                                 <p><b>Gyors és kényelmes:</b> Nem kell napokig kerülgetni a ház előtt álló konténert.</p>
@@ -52,6 +53,10 @@ export function ZsakosSitt() {
                             <li>A szállítást időpontját előre egyeztetni szükséges. Két órás időintervallumot fog kapni, mert a városi közlekedés miatt lehetetlen percre pontosan kikalkulálni az érkezés időpontját. Kollégáink az Önhöz való indulás előtt telefonálnak.</li>
                             <li>A lerakó helyeken történő várakozás is okozhat csúszást. Minden elszállított hulladék hivatalos , előre leszerződött lerakóhelyre kerül. Minden egyes darab kis “szemétnek” követhető útja van a bányáig, megsemmisítő telepig, égetőig….stb., a hulladék fajtájától függően.</li>
                         </ul>
+                        <div id="zsakos_sittszallitas_imgs" className="flex_row justify_center">
+                            <GalleryCard src="../gallery/jozsak.png" alt="Helyesen megrakott zsák" transparent={true} />
+                            <GalleryCard src="../gallery/rosszzsak.png" alt="Helytelenül megrakott zsák" transparent={true} />
+                        </div>
                     </div>
                 </div>
             </div>

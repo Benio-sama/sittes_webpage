@@ -320,6 +320,8 @@ body {
   }
 }
 
+/* General styles */
+
 p {
   line-height: 1.3;
 }
@@ -398,6 +400,15 @@ ul {
 span {
   color: #d32f2f;
 }
+.phone_number {
+  font-weight: 700;
+  background-color: #ff5151;
+  border-radius: 2px;
+  padding: 2px;
+  width: fit-content;
+}
+
+/* General styles end */
 
 /* Navbar styles */
 
@@ -458,7 +469,13 @@ button:hover {
 
 .button_black {
   background-color: black;
-  color: white !important;
+  color: white;
+}
+
+#phone_number_button {
+  background-color: #ff5151;
+  color: white;
+  font-weight: 700;
 }
 
 
@@ -469,8 +486,7 @@ button:hover {
 #about_us_container {
   padding: 10dvh 0;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-  background-color: rgba(124, 168, 222, 50%);
-  /* background-color: #608BC0; */
+  background-color: rgb(124, 168, 222);
 }
 
 #about_us_grid {
@@ -539,7 +555,7 @@ button:hover {
 #zsakos_sittszallitas {
   padding: 4dvh 0;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-  background-color: rgba(49, 95, 187, 0.13);
+  background-color: rgb(124, 168, 222);
 }
 
 #zsakos_sittszallitas_content_grid {
@@ -560,6 +576,12 @@ button:hover {
 #zsakos_sittszallitas_content_adv ul {
   margin: 5px;
   line-height: 1.3;
+}
+
+#zsakos_sittszallitas_imgs {
+  padding: 20px;
+  gap: 1dvw;
+  flex-wrap: wrap;
 }
 
 /* Zsákos Sittszállítás styles end */
@@ -595,7 +617,7 @@ button:hover {
 #reviews {
   padding: 4dvh 0;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-  background-color: rgba(49, 95, 187, 0.13);
+  background-color: rgb(124, 168, 222);
 }
 
 #reviews_container {
@@ -637,12 +659,12 @@ button:hover {
 /* Gallery card styles */
 
 #gallery_card {
-  background-color: white;
   border-radius: 15px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   padding: 15px;
   max-width: 350px;
   transition: 0.3s;
+  height: fit-content;
 }
 
 #gallery_card:hover {
@@ -654,12 +676,20 @@ button:hover {
   max-width: 100%;
 }
 
+.transparent {
+  background-color: rgba(255, 255, 255, 75%);
+}
+
+.non-transparent {
+  background-color: white;
+}
+
 /* Gallery card styles end */
 
 /* Reviews card styles */
 
 #reviews_card {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 75%);
   border-radius: 15px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   border: #ccc 1px solid;
@@ -727,7 +757,7 @@ button:hover {
 /* Small Card styles */
 
 #small_card {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 85%);
   border-radius: 10px;
   border: #ccc 1px solid;
   transition: 0.3s;
@@ -768,7 +798,7 @@ table {
 }
 
 th {
-  background-color: rgba(49, 95, 187, 30%);
+  background-color: rgba(49, 95, 187, 70%);
   padding: 8px;
   text-align: center;
 }
@@ -780,11 +810,11 @@ th {
 }
 
 .tr_even {
-  background-color: rgba(49, 95, 187, 10%);
+  background-color: rgba(49, 95, 187, 45%);
 }
 
 .tr_odd {
-  background-color: rgba(49, 95, 187, 5%);
+  background-color: rgba(49, 95, 187, 35%);
 }
 
 /* Table styles end */
@@ -827,12 +857,12 @@ th {
 
 #contact_us {
   padding: 4dvh 0;
-  background-color: rgba(49, 95, 187, 30%);
+  background-color: rgba(49, 95, 187, 80%);
 }
 
 #contact_us,
 #contact_us a {
-  color: rgba(49, 95, 187, 90%);
+  color: black;
 }
 
 #contact_us_container {
@@ -845,7 +875,7 @@ th {
   display: flex;
   gap: 1dvw;
   flex-wrap: wrap;
-  border-bottom: 2px solid rgba(49, 95, 187, 30%);
+  border-bottom: 2px solid rgba(49, 95, 187, 100%);
 }
 
 #contact_us_flex_1,

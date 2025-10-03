@@ -13,7 +13,7 @@ export function Navbar() {
                         <a href="/galeria">Galéria</a>
                     </nav>
                     <div id="contact" className="align_center justify_center">
-                        <div className="tablet mobile"><a id="phone_number" href="tel:+36705070462"><i className="fa fa-phone"></i> +36 70 507 0462</a></div>
+                        <div className="tablet mobile phone_number"><a id="phone_number" href="tel:+36705070462"><i className="fa fa-phone"></i> +36 70 507 0462</a></div>
                         <button className="button_black"><a id="contact_button" href="#contact_us" className="white">Elérhetőségek</a></button>
                     </div>
                 </div>

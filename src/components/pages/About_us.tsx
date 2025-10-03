@@ -7,10 +7,10 @@ export function AboutUs() {
                 <div id="about_us_grid">
                     <div>
                         <h1 id="about_us_title" className="lighter">Sittszállítás Budapesten – Gyorsan, Megbízhatóan</h1>
-                        <p id="about_us_desc" className="lighter_color">Kis mennyiségű sitt, törmelék, lom, szemét és kerti hulladék szállítása Budapesten és Pest vármegyében rakodással – gyorsan, olcsón, megbízhatóan! Ideális, nincs szükség konténerre — kisteherautóval, szakszerű rakodással, az Ön kényelme érdekében.</p>
+                        <p id="about_us_desc" className="lighter_color">Kis mennyiségű sitt, törmelék, lom, szemét és kerti hulladék szállítása Budapesten és Pest vármegyében akár rakodással is – gyorsan, olcsón, megbízhatóan! Ideális, nincs szükség konténerre — kisteherautóval, szakszerű rakodással, az Ön kényelme érdekében.</p>
                         <div id="about_us_buttons" className="flex_row">
                             <button className="button_white"><i className="fa fa-briefcase brown"></i><a href="#szolgaltatasok"> Szolgáltatások</a></button>
-                            <button className="button_black"><i className="fa fa-phone"></i><a href="tel:+36705070462" className="white"> +36 70 507 0462</a></button>
+                            <button id="phone_number_button"><i className="fa fa-phone"></i><a href="tel:+36705070462" className="white"> +36 70 507 0462</a></button>
                             <button className="button_white"><i className="fa fa-comments"></i><a href="/ugyfelek_velemenyei"> Vélemények</a></button>
                             <button className="button_black"><i className="fa fa-picture-o"></i><a href="/galeria" className="white"> Galéria</a></button>
                         </div>
@@ -18,7 +18,7 @@ export function AboutUs() {
                             <div><i className="fa fa-check-square-o green"></i> Budapesten és Pest vármegyében</div>
                             <div><i className="fa fa-check-square-o green"></i> Gyors és megbízható szolgáltatás</div>
                             <div><i className="fa fa-check-square-o green"></i> Olcsó árak</div>
-                            <div><i className="fa fa-check-square-o green"></i> Sitt, törmelék, lom, szemét és kerti hulladék elhordás</div>
+                            <div><i className="fa fa-check-square-o green"></i> Sitt, törmelék, lom, szemét és kerti hulladék elszállítás</div>
                         </div>
                     </div>
                     <div id="about_us_card_container" className="flex_col justify_center">
