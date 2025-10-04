@@ -7,15 +7,13 @@ export function ContactUs() {
                 <div id="contact_us_flex">
                     <div id="contact_us_flex_1" className="contact_us_mini_containers">
                         <h4><a href="/">Bp Konténer Transport Kft</a></h4>
-                        <p>Kis mennyiségű sitt, törmelék, lom, szemét és kerti hulladék szállítása Budapesten és Pest vármegyében rakodással – gyorsan, olcsón, megbízhatóan! Ideális, nincs szükség konténerre — kisteherautóval, szakszerű rakodással, az Ön kényelme érdekében.</p>
+                        <p>Kis mennyiségű sitt, törmelék, lom, szemét és kerti hulladék szállítása Budapesten és Pest vármegyében akár rakodással is – gyorsan, olcsón, megbízhatóan! Ideális, nincs szükség konténerre — kisteherautóval, szakszerű rakodással, az Ön kényelme érdekében.</p>
                     </div>
                     <div id="contact_us_flex_2" className="contact_us_mini_containers">
                         <h4 className="text_center">Szolgáltatások</h4>
                         <div id="contact_us_flex_2_grid">
                             <div>
                                 <p><a href="/zsakos_sittszallitas">Zsákos sittszállítás</a></p>
-                                <p><Link to="/#Sittes_Zsak">Sittes Zsák</Link></p>
-                                <p><Link to="/#Takarofolia">Takarófólia</Link></p>
                                 <p><a href="/lomtalanitas">Lomtalanítás</a></p>
                                 <p><Link to="/#Termofold_szallitas">Termőföld szállítás</Link></p>
                                 <p><Link to="/#Rakodas">Rakodás</Link></p>
@@ -24,7 +22,6 @@ export function ContactUs() {
                             <div>
                                 <p><Link to="/#Murva_szallitas_kavics_szallitas">Murva szállítás, kavics szállítás</Link></p>
                                 <p><Link to="/#Zoldhulladek_kerti_hulladek_szallitas">Zöldhulladék, kerti hulladék szállítás</Link></p>
-                                <p><Link to="/#Lomos_hulladekos_zsak">Lomos, hulladékos zsák</Link></p>
                                 <p><Link to="/#Zsakolas">Zsákolás</Link></p>
                             </div>
                         </div>
@@ -32,7 +29,7 @@ export function ContactUs() {
                     <div id="contact_us_flex_3" className="contact_us_mini_containers flex_col align_center">
                         <div>
                             <h4>Kapcsolat</h4>
-                            <p><i className="fa fa-phone"></i><a href="tel:+36705070462"> +36 70 507 0462</a></p>
+                            <p className="phone_number orange"><i className="fa fa-phone"></i><a href="tel:+36705070462"> +36 70 507 0462</a></p>
                             <p><i className="fa fa-envelope"></i><a href="mailto:azsakossitt@gmail.com"> azsakossitt@gmail.com</a></p>
                             <p><i className="fa fa-map-marker"></i> Budapest és Pest vármegye</p>
                         </div>

@@ -6,14 +6,19 @@ import React from 'react'
 
 const router = createBrowserRouter([
   {
-    //about us page
+    //home page
     path: '*',
-    element: <App subpage='about_us' />,
+    element: <App subpage='home' />,
   },
   {
-    //about us page
+    //home page
     path: '/home',
-    element: <App subpage='about_us' />,
+    element: <App subpage='home' />,
+  },
+  {
+    //szolgaltatasok page
+    path: '/szolgaltatasok',
+    element: <App subpage='szolgaltatasok' />,
   },
   {
     //zsakos sittszallitas page
@@ -29,6 +34,11 @@ const router = createBrowserRouter([
     //ugyfelek velemenyei page
     path: '/ugyfelek_velemenyei',
     element: <App subpage='ugyfelek_velemenyei' />,
+  },
+  {
+    //arak page
+    path: '/arak',
+    element: <App subpage='arak' />,
   },
   {
     //galeria page

@@ -4,7 +4,7 @@
             "id": 0,
             "title": "Zsákos sittszállítás",
             "href": "Zsakos_sittszallitas",
-            "description": "Kis mennyiségű sitt, törmelék, lom, szemét és kerti hulladék szállítása Budapesten és Pest vármegyében rakodással - gyorsan, olcsón, megbízhatóan!",
+            "description": "Kis mennyiségű sitt, törmelék, lom, szemét és kerti hulladék szállítása Budapesten és Pest vármegyében akár rakodással is - gyorsan, olcsón, megbízhatóan!",
             "iconClass": "fa fa-truck",
             "colorRed": 30,
             "colorGreen": 71,
@@ -15,30 +15,6 @@
             ],
             "isReszletek": true,
             "reszletek": "/zsakos_sittszallitas"
-        },
-        {
-            "id": 1,
-            "title": "Sittes Zsák",
-            "href": "Sittes_Zsak",
-            "description": "Extra erős sittes zsák kapható cégünknél!",
-            "iconClass": "fa fa-trash",
-            "colorRed": 122,
-            "colorGreen": 75,
-            "colorBlue": 47,
-            "bulletpoints": [
-                "100 db megrendelés felett nettó 87 Ft/db",
-                "200 db megrendelés felett nettó 84 Ft/db",
-                "500 db megrendelés felett nettó 79 Ft/db",
-                "1000 db megrendelés felett nettó 74 Ft/db",
-                "2500 db megrendelés felett nettó 69 Ft/db"
-            ],
-            "more": [
-                "Méretei: 900 x 550 x 0,1 (mm)",
-                "Amennyiben rendelését 8:00 és 14:00 között leadja, <span className='red'>legalább 100 db vásárlása esetén Budapesten díjmentesen 3 órán belül</span> kiszállítjuk!",
-                "100 db-nál kisebb mennyiség rendelése esetén a kiszállítási díj 1.900 Ft."
-            ],
-            "isReszletek": false,
-            "reszletek": ""
         },
         {
             "id": 2,
@@ -66,16 +42,14 @@
             "id": 3,
             "title": "Lomtalanítás",
             "href": "Lomtalanitas",
-            "description": "Lomtalanítást, feleslegessé vált lomok (ócska vagy öreg bútorok, műszaki, elektronikai berendezések, ruhák, könyvek stb.) elszállítását vállaljuk magánszemélyeknek és közületeknek – Budapest minden kerületében és környékén a hét bármely napján, a nap bármelyik órájában. Amit vállalunk:",
+            "description": "Lomtalanítást, feleslegessé vált lomok (ócska vagy öreg bútorok, műszaki, elektronikai berendezések, ruhák, könyvek stb.) elszállítását vállaljuk magánszemélyeknek és közületeknek – Budapest minden kerületében és környékén. Amit vállalunk:",
             "iconClass": "fa fa-bed",
             "colorRed": 122,
             "colorGreen": 75,
             "colorBlue": 47,
             "bulletpoints": [
                 "lakás és iroda lomtalanítás",
-                "padlás és pincetakarítás",
-                "bútorok mozgatása",
-                "nagyobb terület takarítása"
+                "padlás és pincetakarítás"
             ],
             "more": [
                 "Részletekért forduljon hozzánk bizalommal. Ha nem akar várni az éves lomtalanításra, várjuk hívását!",
@@ -88,29 +62,13 @@
             "id": 4,
             "title": "Termőföld szállítás",
             "href": "Termofold_szallitas",
-            "description": "Vállaljuk kedvező áron termőföld és töltőföld konténeres kiszállítását Budapesten és környékén. Megrendelései teljesítéséhez többfajta, különböző méretű konténer és teherautó áll rendelkezésünkre. Rendelés történhet telefonon, vagy e-mailben.",
+            "description": "Az aktuális termőföld árak ügyében, valamint a szállítás feltételeiről tájékozódjon munkatársunknál!",
             "iconClass": "fa fa-leaf",
             "colorRed": 30,
             "colorGreen": 151,
             "colorBlue": 30,
-            "bulletpoints": [
-                "Natúr termőföld",
-                "Darált termőföld",
-                "Natúr trágyás föld",
-                "Darált trágyás föld",
-                "Natúr trágyás föld tőzeggel",
-                "Darált trágyás föld tőzeggel",
-                "Natúr föld tőzeggel",
-                "Darált föld tőzeggel",
-                "Darált tőzeg",
-                "Darált tőzeg komplex műtrágyával",
-                "Marhatrágya, istállótrágya",
-                "Töltőföld"
-            ],
-            "more": [
-                "Az aktuális termőföld árak ügyében, valamint a szállítás feltételeiről tájékozódjon munkatársunknál!",
-                "Ha nagyobb mennyiségű - több mint 8 m3 - termőföld, vagy töltőföld szállítására van szüksége, ajánlatkérés ügyében forduljon munkatársunkhoz, vagy írjon az info@sitt-lom.hu e-mail címre."
-            ],
+            "bulletpoints": [],
+            "more": [],
             "isReszletek": false,
             "reszletek": ""
         },
@@ -118,7 +76,7 @@
             "id": 5,
             "title": "Rakodás",
             "href": "Rakodas",
-            "description": "Amennyiben nem tudja megoldani a konténer rakodását, csapatunk szívesen áll rendelkezésére a hét bármely napján, a nap bármelyik órájában.",
+            "description": "Amennyiben nem tudja megoldani a rakodását, csapatunk szívesen áll rendelkezésére.",
             "iconClass": "fa fa-leaf",
             "colorRed": 30,
             "colorGreen": 151,
@@ -126,14 +84,10 @@
             "bulletpoints": [
                 "zsákolás, sittes zsákok megrakása",
                 "zsákolt sitt rakodása, hordása",
-                "földpakolás,- terítés",
-                "nagyobb terület takarítása",
-                "lomtalanítás",
-                "Vasszerelvények szétvágása",
-                "faanyagok bontása, darabolása"
+                "lomtalanítás"
             ],
             "more": [
-                "Megértését kérjük, de a rakodás nem jelent takarítást is egyben! Amit egyetlen lapáttal össze lehet szedni, azt tudjuk csak elszállítani. Természetesen a nem szakszerű rakodásból és szállításból eredő szennyeződést feltakarítjuk (de pl. az eleve lyukas zsákból szóródó sittet vagy port nem).",
+                "Megértését kérjük, de a rakodás nem jelent takarítást is egyben! Természetesen a nem szakszerű rakodásból és szállításból eredő szennyeződést feltakarítjuk (de pl. az eleve lyukas zsákból szóródó sittet vagy port nem).",
                 "Részletekért forduljon hozzánk bizalommal. Várjuk hívását!"
             ],
             "isReszletek": false,
@@ -143,23 +97,14 @@
             "id": 6,
             "title": "Sóder szállítás, homok szállítás",
             "href": "Soder_szallitas_homok_szallitas",
-            "description": "Vállaljuk kedvező áron sóder és homok konténeres kiszállítását Budapesten és környékén. Megrendelései teljesítéséhez többfajta, különböző méretű konténer és teherautó áll rendelkezésünkre.",
+            "description": "Vállaljuk kedvező áron sóder és homok kiszállítását Budapesten és környékén.",
             "iconClass": "fa fa-truck",
             "colorRed": 230,
             "colorGreen": 213,
             "colorBlue": 62,
-            "bulletpoints": [
-                "Homok (sárga)",
-                "Homok 0-1 (szürke)",
-                "Sóder 0-4",
-                "Sóder 0-8",
-                "Sóder 0-16",
-                "Sóder 0-24",
-                "Töltősóder"
-            ],
+            "bulletpoints": [],
             "more": [
-                "Az aktuális sóder és homok árak ügyében, valamint a szállítás feltételeiről tájékozódjon munkatársunknál!",
-                "Ha nagyobb mennyiségű - több mint 8 m3 - építőanyag szállítására van szüksége, ajánlatkérés ügyében forduljon munkatársunkhoz, vagy írjon az info@sitt-lom.hu e-mail címre."
+                "Az aktuális sóder és homok árak ügyében, valamint a szállítás feltételeiről tájékozódjon munkatársunknál!"
             ],
             "isReszletek": false,
             "reszletek": ""
@@ -168,27 +113,14 @@
             "id": 7,
             "title": "Murva szállítás, kavics szállítás",
             "href": "Murva_szallitas_kavics_szallitas",
-            "description": "Vállaljuk kedvező áron murva és kavics konténeres kiszállítását Budapesten és környékén. Megrendelései teljesítéséhez többfajta, különböző méretű konténer és teherautó áll rendelkezésünkre.",
+            "description": "Vállaljuk kedvező áron murva és kavics kiszállítását Budapesten és környékén.",
             "iconClass": "fa fa-truck",
             "colorRed": 61,
             "colorGreen": 56,
             "colorBlue": 49,
-            "bulletpoints": [
-                "Kavics 4-8",
-                "Kavics 8-16",
-                "Kulékavics 16-32",
-                "Kulékavics 24-40",
-                "Kulékavics 30-65",
-                "Díszítő kavics",
-                "Kerti murva 5-12",
-                "Kerti murva 12-20",
-                "Murva 0-20",
-                "Murva 20-55",
-                "2/5 Kő"
-            ],
+            "bulletpoints": [],
             "more": [
-                "Az aktuális kavics és murva árak ügyében, valamint a szállítás feltételeiről tájékozódjon munkatársunknál!",
-                "Ha nagyobb mennyiségű - több mint 8 m3 - építőanyag szállítására van szüksége, ajánlatkérés ügyében forduljon munkatársunkhoz, vagy írjon az info@sitt-lom.hu e-mail címre."
+                "Az aktuális kavics és murva árak ügyében, valamint a szállítás feltételeiről tájékozódjon munkatársunknál!"
             ],
             "isReszletek": false,
             "reszletek": ""
@@ -197,33 +129,12 @@
             "id": 8,
             "title": "Zöldhulladék, kerti hulladék szállítás",
             "href": "Zoldhulladek_kerti_hulladek_szallitas",
-            "description": "Vállaljuk kedvező áron zöldhulladék és kerti hulladék elszállítását Budapesten és környékén. Megrendelései teljesítéséhez többfajta, különböző méretű konténer és teherautó áll rendelkezésünkre.",
+            "description": "Vállaljuk kedvező áron zöldhulladék és kerti hulladék elszállítását Budapesten és környékén.",
             "iconClass": "fa fa-truck",
             "colorRed": 30,
             "colorGreen": 151,
             "colorBlue": 30,
-            "bulletpoints": [
-                "Igény szerint a kertben keletkező rönköket, ágakat, gallyakat és levágott növényzetet elszállítjuk. A zöldhulladék lerakása a Pusztazámori, illetve a Főkert Zrt. komposztüzemében történik.",
-                "A nyesedék elszállítását teherautóval, valamint konténerrel végezzük. Kérésre zöldhulladékos zsákot is tudunk biztosítani. Természetesen bármilyen egyéb kerti és komposztálható zöldhulladék elszállítását vállaljuk Budapesten és környékén.",
-                "A háztartásban keletkező élelmiszerhulladék és ételmaradék nem minősül zöldhulladéknak! Amennyiben földes gyökér is kerülne a konténerbe, azt rendeléskor mindenképpen közölje munkatársunkkal."
-            ],
-            "more": [],
-            "isReszletek": false,
-            "reszletek": ""
-        },
-        {
-            "id": 9,
-            "title": "Lomos, hulladékos zsák",
-            "href": "Lomos_hulladekos_zsak",
-            "description": "Extra erős lomos, szemetes zsák kapható cégünknél",
-            "iconClass": "fa fa-trash",
-            "colorRed": 128,
-            "colorGreen": 128,
-            "colorBlue": 128,
-            "bulletpoints": [
-                "100 Ft/db",
-                "Méretei: 1100 x 550 x 0,1 (mm)"
-            ],
+            "bulletpoints": [],
             "more": [],
             "isReszletek": false,
             "reszletek": ""

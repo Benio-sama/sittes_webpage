@@ -1,49 +1,54 @@
 {
     "pictures": [
         {
-            "id": 0,
-            "src": "../gallery/cica1.jpg",
-            "alt": "Gallery Image 1"
+            "id": 8,
+            "src": "../gallery/teher9.png",
+            "alt": "Gallery Image 9"
         },
         {
-            "id": 1,
-            "src": "../gallery/cica2.png",
-            "alt": "Gallery Image 2"
+            "id": 6,
+            "src": "../gallery/teher7.png",
+            "alt": "Gallery Image 7"
         },
         {
             "id": 2,
-            "src": "../gallery/cica3.png",
+            "src": "../gallery/teher3.png",
             "alt": "Gallery Image 3"
         },
         {
             "id": 3,
-            "src": "../gallery/cica1.jpg",
-            "alt": "Gallery Image 1"
+            "src": "../gallery/teher4.png",
+            "alt": "Gallery Image 4"
         },
         {
             "id": 4,
-            "src": "../gallery/cica2.png",
-            "alt": "Gallery Image 2"
+            "src": "../gallery/teher5.png",
+            "alt": "Gallery Image 5"
         },
         {
-            "id": 5,
-            "src": "../gallery/cica3.png",
-            "alt": "Gallery Image 3"
-        },
-        {
-            "id": 6,
-            "src": "../gallery/cica1.jpg",
+            "id": 0,
+            "src": "../gallery/teher1.png",
             "alt": "Gallery Image 1"
         },
         {
             "id": 7,
-            "src": "../gallery/cica2.png",
+            "src": "../gallery/teher8.png",
+            "alt": "Gallery Image 8"
+        },
+        {
+            "id": 5,
+            "src": "../gallery/teher6.png",
+            "alt": "Gallery Image 6"
+        },
+        {
+            "id": 1,
+            "src": "../gallery/teher2.png",
             "alt": "Gallery Image 2"
         },
         {
-            "id": 8,
-            "src": "../gallery/cica3.png",
-            "alt": "Gallery Image 3"
+            "id": 9,
+            "src": "../gallery/teher10.png",
+            "alt": "Gallery Image 10"
         }
     ]
 }
