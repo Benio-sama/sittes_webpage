@@ -27,13 +27,25 @@ body {
     display: none;
   }
 
-  #about_us_content {
+  #home_content {
     max-width: 100%;
     margin-inline: 10px;
     padding: 0 2dvw;
   }
 
   #zsakos_sittszallitas_container {
+    max-width: 100%;
+    margin-inline: 10px;
+    padding: 0 2dvw;
+  }
+
+  #about_us_container {
+    max-width: 100%;
+    margin-inline: 10px;
+    padding: 0 2dvw;
+  }
+
+  #arak_container {
     max-width: 100%;
     margin-inline: 10px;
     padding: 0 2dvw;
@@ -70,7 +82,7 @@ body {
   }
 }
 
-@media (min-width: 451px) and (max-width: 588px) {
+@media (min-width: 451px) and (max-width: 667px) {
   #navbar_position {
     margin-inline: 5px;
   }
@@ -88,13 +100,25 @@ body {
     display: none;
   }
 
-  #about_us_content {
+  #home_content {
     max-width: 100%;
     margin-inline: 10px;
     padding: 0 2dvw;
   }
 
   #zsakos_sittszallitas_container {
+    max-width: 100%;
+    margin-inline: 10px;
+    padding: 0 2dvw;
+  }
+
+  #about_us_container {
+    max-width: 100%;
+    margin-inline: 10px;
+    padding: 0 2dvw;
+  }
+
+  #arak_container {
     max-width: 100%;
     margin-inline: 10px;
     padding: 0 2dvw;
@@ -131,7 +155,7 @@ body {
 
 }
 
-@media (max-width: 768px) and (min-width: 589px) {
+@media (max-width: 768px) and (min-width: 668px) {
   #navbar_position {
     margin-inline: 10px;
     max-width: 100%;
@@ -142,7 +166,7 @@ body {
     padding: 15px 0;
   }
 
-  #about_us_content {
+  #home_content {
     max-width: 75%;
     margin-inline: 3dvw;
     padding: 0 4dvw;
@@ -154,6 +178,12 @@ body {
 
   #zsakos_sittszallitas_container {
     max-width: 85%;
+    margin-inline: auto;
+    padding: 0 4dvw;
+  }
+
+  #arak_container {
+    max-width: 75%;
     margin-inline: auto;
     padding: 0 4dvw;
   }
@@ -212,7 +242,7 @@ body {
     display: none;
   }
 
-  #about_us_content {
+  #home_content {
     max-width: 85%;
     margin-inline: 5dvw;
     padding: 0 4dvw;
@@ -224,6 +254,18 @@ body {
 
   #zsakos_sittszallitas_container {
     max-width: 85%;
+    margin-inline: auto;
+    padding: 0 4dvw;
+  }
+
+  #about_us_container {
+    max-width: 75%;
+    margin-inline: auto;
+    padding: 0 4dvw;
+  }
+
+  #arak_container {
+    max-width: 75%;
     margin-inline: auto;
     padding: 0 4dvw;
   }
@@ -260,7 +302,7 @@ body {
 
 @media (min-width: 1025px) {
   #navbar_position {
-    max-width: 85%;
+    max-width: 95%;
     margin-inline: auto;
     padding: 0 2dvw;
   }
@@ -270,9 +312,21 @@ body {
     padding: 15px 0;
   }
 
-  #about_us_content {
+  #home_content {
     max-width: 75%;
     margin-inline: 13dvw;
+    padding: 0 4dvw;
+  }
+
+  #about_us_container {
+    max-width: 75%;
+    margin-inline: auto;
+    padding: 0 4dvw;
+  }
+
+  #arak_container {
+    max-width: 75%;
+    margin-inline: auto;
     padding: 0 4dvw;
   }
 
@@ -348,7 +402,15 @@ ul {
 }
 
 .green {
-  color: #30aa2c;
+  color: #09ff00;
+}
+
+.dark_green {
+  color: rgb(38, 185, 38);
+}
+
+.blue {
+  color: #133e87;
 }
 
 .align_center {
@@ -397,18 +459,74 @@ ul {
   margin: 0;
 }
 
+.no_margin_top {
+  margin-top: 0;
+}
+
 span {
   color: #d32f2f;
 }
+
 .phone_number {
   font-weight: 700;
-  background-color: #ff5151;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 2px;
   width: fit-content;
 }
 
+.orange {
+  background-color: rgb(255, 173, 20);
+}
+
+.red {
+  background-color: #ff5151;
+}
+
 /* General styles end */
+
+/* Sittes zsák styles */
+
+#zsak_float {
+  position: fixed;
+  bottom: 30%;
+  right: -45px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.5s ease;
+  z-index: 999;
+}
+
+#zsak_float.open {
+  transform: translateX(-50px);
+}
+
+#zsak_float.closed {
+  transform: translateX(210px);
+  /* eltoljuk balra, hogy "kicsússzon" */
+}
+
+#zsak_button {
+  background-color: rgb(255, 193, 121);
+  border: 1px solid rgb(255, 173, 20);
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  height: 50px;
+  transition: 0.3s;
+}
+
+#zsak_container {
+  border: 1px solid rgb(255, 173, 20);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 193, 121);
+  border-radius: 10px;
+  width: 230px;
+  padding: 10px;
+}
+
+/* Sittes zsák styles end */
 
 /* Navbar styles */
 
@@ -454,7 +572,7 @@ button {
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
-  min-width: 100px;
+  width: fit-content;
 }
 
 button:hover {
@@ -473,45 +591,75 @@ button:hover {
 }
 
 #phone_number_button {
-  background-color: #ff5151;
-  color: white;
+  background-color: rgb(255, 173, 20);
+  color: black;
   font-weight: 700;
 }
 
 
 /* Button styles end */
 
-/* About Us styles */
+/* Moving Logo styles */
 
-#about_us_container {
-  padding: 10dvh 0;
+#moving_container {
+  padding: 5dvh 0 5dvh 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.moving_img {
+  position: relative;
+  transform: translateY(-50%);
+  width: 150px;
+  left: -200px;
+  animation: move 20s linear infinite;
+  opacity: 0.9;
+}
+
+@keyframes move {
+  0% {
+    left: -200px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+/* Moving Logo styles end */
+
+/* Home styles */
+
+#home_container {
+  padding: 0 0 10dvh 0;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   background-color: rgb(124, 168, 222);
 }
 
-#about_us_grid {
+#home_grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2dvw;
 }
 
-#about_us_title {
+#home_title {
   font-size: 3rem;
   margin-bottom: 1rem;
   margin-top: 0;
 }
 
-#about_us_desc {
+#home_desc {
   line-height: 23px;
 }
 
-#about_us_buttons {
+#home_buttons {
   gap: 1dvw;
   margin: 20px 0;
   flex-wrap: wrap;
 }
 
-#about_us_adv_grid {
+#home_adv_grid {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
@@ -519,10 +667,33 @@ button:hover {
   font-size: 14px;
 }
 
-#about_us_card_grid {
+#home_card_grid {
   display: grid;
   grid-template-rows: auto auto auto;
   gap: 1dvw;
+}
+
+/* Home styles end */
+
+/* About Us styles */
+
+#about_us {
+  padding: 4dvh 0;
+  background-color: rgb(240, 240, 245);
+}
+
+#about_us_card_container {
+  flex-wrap: wrap;
+  gap: 0.5dvw;
+}
+
+.about_us_card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  min-width: 200px;
 }
 
 /* About Us styles end */
@@ -531,6 +702,7 @@ button:hover {
 
 #szolgaltatasok {
   padding: 30px 0;
+  background-color: rgb(240, 240, 245);
 }
 
 #szolgaltatasok_container {
@@ -655,6 +827,43 @@ button:hover {
 }
 
 /* Gallery styles end */
+
+/* Arak styles */
+
+#arak {
+  padding: 4dvh 0;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  background-color: rgb(240, 240, 245);
+}
+
+#arak_container {
+  max-width: 75%;
+  margin-inline: auto;
+  padding: 0 4dvw;
+}
+
+#arak_content {
+  margin-top: 20px;
+  gap: 1dvw;
+  flex-wrap: wrap;
+}
+
+#arak_content p {
+  margin: 5px;
+}
+
+#arak_card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+#arak_card_content {
+ margin-bottom: 10px;
+}
+
+/* Arak styles end */
 
 /* Gallery card styles */
 
