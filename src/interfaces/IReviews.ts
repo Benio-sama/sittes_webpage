@@ -1,6 +1,6 @@
 export interface IReviews {
     id: number;
-    title: string;
+    title?: string;
     body: string;
     footer: string;
 }

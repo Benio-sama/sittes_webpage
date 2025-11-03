@@ -1,7 +1,27 @@
+import { useState, useEffect } from "react";
 import { MovingLogo } from "../elements/MovingLogo";
 import { SmallCard } from "../elements/SmallCard";
 
 export function Home() {
+    const [color, setColor] = useState("");
+
+    useEffect(() => {
+        const intervall = setInterval(() => {
+            let red, green, blue, brightness;
+            do {
+                red = Math.floor(Math.random() * 256);
+                green = Math.floor(Math.random() * 256);
+                blue = Math.floor(Math.random() * 256);
+                brightness = (red * 299 + green * 587 + blue * 114) / 1000;
+            } while (brightness < 130); // 🔹 csak ha elég világos
+            let backg = `rgb(${red}, ${green}, ${blue})`;
+
+            setColor(backg);
+        }, 300)
+        return () => clearInterval(intervall);
+    }, []);
+
+
     return (
         <section id="home_container" className="flex_col align_center">
             <MovingLogo />
@@ -13,8 +33,8 @@ export function Home() {
                         <div id="home_buttons" className="flex_row">
                             <button className="button_white"><i className="fa fa-briefcase brown"></i><a href="/szolgaltatasok"> Szolgáltatások</a></button>
                             <button className="button_black"><i className="fa fa-truck"></i><a href="/zsakos_sittszallitas" className="white"> Zsákos sittszállítás</a></button>
-                            <button id="phone_number_button"><i className="fa fa-phone"></i><a href="tel:+36705070462"> +36 70 507 0462</a></button>
-                            <button className="button_black"><i className="fa fa-truck"></i><a href="/lomtalanitas" className="white"> Lomtalanítás</a></button>
+                            <button id="phone_number_button" style={{ backgroundColor: color }}><i className="fa fa-phone"></i><a href="tel:+36705070462"> +36 70 507 0462</a></button>
+                            {/* <button className="button_black"><i className="fa fa-truck"></i><a href="/lomtalanitas" className="white"> Lomtalanítás</a></button> */}
                             <button className="button_white"><i className="fa fa-money dark_green"></i><a href="/arak"> Árak</a></button>
                             <button className="button_black"><i className="fa fa-comments"></i><a href="/ugyfelek_velemenyei" className="white"> Vélemények</a></button>
                             <button className="button_white"><i className="fa fa-picture-o blue"></i><a href="/galeria"> Galéria</a></button>

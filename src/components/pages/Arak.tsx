@@ -13,7 +13,7 @@ export function Arak() {
                         </div>
                         <button><a href="/zsakos_sittszallitas">Részletek</a></button>
                     </div>
-                    <div id="arak_card" className="flex_col">
+                    {/* <div id="arak_card" className="flex_col">
                         <h3 className="lighter text_center no_margin_top">Lomtalanítás árak</h3>
                         <div id="arak_card_content" className="flex_col justify_center">
                             <p><b>Kiállás:</b> 14.000 Ft (Budapest és Pest vármegye területén)</p>
@@ -24,7 +24,7 @@ export function Arak() {
                             <p><b>Zsákolás:</b> 350 Ft/zsák (tartalmazza a zsák árát is)</p>
                         </div>
                         <button><a href="/lomtalanitas">Részletek</a></button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

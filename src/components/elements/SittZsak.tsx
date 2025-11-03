@@ -1,8 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 export function SittZsak() {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
+
+    useEffect(() => {
+        console.log(sessionStorage.getItem("opened"));
+        setOpen(sessionStorage.getItem("opened") == "true" ? false : true);
+        sessionStorage.setItem("opened", "true");
+    }, []);
 
     return (
         <div id="zsak_float" className={`flex_row align_center justify_center ${open ? 'open' : 'closed'}`}>

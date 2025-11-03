@@ -2,63 +2,33 @@
     "reviews": [
         {
             "id": 0,
-            "title": "Kiváló szolgáltatás",
-            "body": "Nagyon elégedett vagyok a szolgáltatással! Gyorsak és megbízhatóak.",
-            "footer": "Kovács János"
+            "title": "",
+            "body": "Hosszú évek óta veszem igénybe a szolgáltatásukat. Mindig korrekten, gyorsan, a megbeszélt időben teljesítették a szállítást. Csak ajánlani tudom őket!",
+            "footer": "Üdvözlettel, Vágó Csaba"
         },
         {
             "id": 1,
-            "title": "Jó ár-érték arány",
-            "body": "Jó ár-érték arány, de a kiszállítás kicsit késlekedett.",
-            "footer": "Szabó Anna"
+            "title": "",
+            "body": "Barátnőm ajánlására hívtam őket először és azóta már többször is szállítattam velük. Elégedett vagyok nagyon!",
+            "footer": "Köszönöm, Nyitrai Ildikó"
         },
         {
             "id": 2,
-            "title": "Profi csapat",
-            "body": "Mindenkinek ajánlom őket! Profi csapat.",
-            "footer": "Nagy Péter"
+            "title": "",
+            "body": "Nagyon kedves volt a sofőr, beszélgetett velem és még a kutyusomat is megsimogatta, játszott vele. Köszönöm neki. ",
+            "footer": "Özv. Pungler Béláné"
         },
         {
             "id": 3,
-            "title": "Kiváló szolgáltatás",
-            "body": "Nagyon elégedett vagyok a szolgáltatással! Gyorsak és megbízhatóak.",
-            "footer": "Kovács János"
+            "title": "",
+            "body": "Mindenkinek ajánlom őket! Profi csapat!",
+            "footer": "Üdv, Gál Róbert"
         },
         {
             "id": 4,
-            "title": "Jó ár-érték arány",
-            "body": "Jó ár-érték arány, de a kiszállítás kicsit késlekedett.",
-            "footer": "Szabó Anna"
-        },
-        {
-            "id": 5,
-            "title": "Profi csapat",
-            "body": "Mindenkinek ajánlom őket! Profi csapat.",
-            "footer": "Nagy Péter"
-        },
-        {
-            "id": 6,
-            "title": "Kiváló szolgáltatás",
-            "body": "Nagyon elégedett vagyok a szolgáltatással! Gyorsak és megbízhatóak.",
-            "footer": "Kovács János"
-        },
-        {
-            "id": 7,
-            "title": "Jó ár-érték arány",
-            "body": "Jó ár-érték arány, de a kiszállítás kicsit késlekedett.",
-            "footer": "Szabó Anna"
-        },
-        {
-            "id": 8,
-            "title": "Profi csapat",
-            "body": "Mindenkinek ajánlom őket! Profi csapat.",
-            "footer": "Nagy Péter"
-        },
-        {
-            "id": 9,
-            "title": "Great Service!",
-            "body": "I had a wonderful experience with this company.",
-            "footer": "John Doe"
+            "title": "",
+            "body": "Nagyon elégedett vagyok. Gyorsak, megbízhatóak.",
+            "footer": "Lengyel Ábel"
         }
     ]
 }
