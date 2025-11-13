@@ -5,7 +5,6 @@ export function SittZsak() {
     const [open, setOpen] = useState(false);
 
     useEffect(() => {
-        console.log(sessionStorage.getItem("opened"));
         setOpen(sessionStorage.getItem("opened") == "true" ? false : true);
         sessionStorage.setItem("opened", "true");
     }, []);
