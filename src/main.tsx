@@ -25,11 +25,11 @@ const router = createBrowserRouter([
     path: '/zsakos_sittszallitas',
     element: <App subpage='zsakos_sitt' />,
   },
-  {
-    //lomtalanitas page
-    path: '/lomtalanitas',
-    element: <App subpage='lomtalanitas' />,
-  },
+  // {
+  //   //lomtalanitas page
+  //   path: '/lomtalanitas',
+  //   element: <App subpage='lomtalanitas' />,
+  // },
   {
     //ugyfelek velemenyei page
     path: '/ugyfelek_velemenyei',

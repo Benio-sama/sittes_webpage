@@ -17,28 +17,6 @@
             "reszletek": "/zsakos_sittszallitas"
         },
         {
-            "id": 2,
-            "title": "Takarófólia",
-            "href": "Takarofolia",
-            "description": "Többféle takarófólia kapható cégünknél!",
-            "iconClass": "fa fa-newspaper-o",
-            "colorRed": 214,
-            "colorGreen": 151,
-            "colorBlue": 56,
-            "bulletpoints": [
-                "Erős, lépésálló takarófólia, méretei: 4m x 5m (20m<sup>2</sup>), 600 Ft/db",
-                "Erős, létrázható takarófólia, méretei: 4m x 5m (20m<sup>2</sup>), 800 Ft/db",
-                "Extra erős, építési takarófólia, méretei: 4m x 5m (20m<sup>2</sup>), 1000 Ft/db"
-            ],
-            "more": [
-                "<span>25 db feletti vásárlás esetén Budapesten díjmentesen házhoz szállítjuk!</span>",
-                "Ennél kisebb mennyiség esetén a kiszállítási díj 1.900 Ft.",
-                "<span>Az árak <b>NEM</b> tartalmazzák a termékdíjat (40 Ft/db, 66 Ft/db) és az áfát.</span>"
-            ],
-            "isReszletek": false,
-            "reszletek": ""
-        },
-        {
             "id": 3,
             "title": "Lomtalanítás",
             "href": "Lomtalanitas",
@@ -51,12 +29,9 @@
                 "lakás és iroda lomtalanítás",
                 "padlás és pincetakarítás"
             ],
-            "more": [
-                "Részletekért forduljon hozzánk bizalommal. Ha nem akar várni az éves lomtalanításra, várjuk hívását!",
-                "A 'Részletek' gombra kattintva megtekintheti árainkat és további információkat a lomtalanításról."
-            ],
-            "isReszletek": true,
-            "reszletek": "/lomtalanitas"
+            "more": [],
+            "isReszletek": false,
+            "reszletek": ""
         },
         {
             "id": 4,
